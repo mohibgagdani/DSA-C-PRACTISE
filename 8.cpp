@@ -49,7 +49,7 @@ public:
             rear->next = newQueue;
             rear = newQueue;
         }
-        cout << value << " enqueued thi queue." << endl;
+        cout << value << " enqueue thi queue." << endl;
     }
 
     void dequeue()
